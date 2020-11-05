@@ -22,11 +22,14 @@ import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
+
 public class MainActivity extends AppCompatActivity {
 
     static final int REQUEST_IMAGE_CAPTURE = 1;
     private EditText etSaveDialog;
     private EditText etLoadDialog;
+
+    // Esta aplicacion te permite hacer fotos y guardarlas con un nombre, luego permite cargar fotos de local dando el nombre con el que fue guardada
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
